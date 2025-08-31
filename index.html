@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Message ❤️</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffafbd, #ffc3a0);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .popup {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      text-align: center;
+      width: 300px;
+      display: none;
+    }
+    .popup h1 {
+      color: #ff4b5c;
+    }
+    button {
+      padding: 10px 15px;
+      border: none;
+      background: #ff4b5c;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #e8434e;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="popup" id="popup">
+    <h1>💌 Hii topakkk!</h1>
+    <p>You’re the most special person in my life, Always remember that❤️
+    Gusto ko lang sabihin na.. nandito lang ako palagi para sayo, proud ako sayo always
+    na sana soon magawa mo lahat ng gusto mong gawin at i just wanna thank you for everthing
+    sa EFFORTS, LOVE, CARE hindi lang sakin pati na rin sa mga kapatid ko, Sorry po ha.. 
+    sorry po sa mga nagawa kong mali, thank you sa palaging pag-intindi sana hindi ka manawa🥺
+      iloveyouuu Ashang ko!</p>
+    <button onclick="closePopup()">Awww 🥰</button>
+  </div>
+
+  <script>
+    window.onload = function() {
+      const popup = document.getElementById("popup");
+      popup.style.display = "block";
+    }
+
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+      alert("I love you! Ashang ko, Love ❤️");
+    }
+  </script>
+</body>
+</html>
